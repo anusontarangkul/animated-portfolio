@@ -84,3 +84,17 @@ a :hover {
 .tech-border {
   border-bottom: 1px solid #fcfdfd;
 }
+
+.column-margin {
+  margin-left: 2rem;
+}
+
+.project-2 {
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+.project-image {
+  height: 400px;
+  width: 700px;
+}
