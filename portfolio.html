@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+  </head>
+  <body class="has-background-grey-darker">
+    <nav
+      class="navbar has-background-black-bis"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-white nav-home" href="https://bulma.io">
+          Home
+        </a>
+
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span class="has-text-white" aria-hidden="true"></span>
+          <span class="has-text-white" aria-hidden="true"></span>
+          <span class="has-text-white" aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end nav-edits">
+          <div class="navbar-item">
+            <div>
+              <a class="has-text-white has-text-weight-bold" href="/logout">
+                Portfolio
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div>
+              <a class="has-text-white has-text-weight-bold" href="/logout">
+                About
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div>
+              <a class="has-text-white has-text-weight-bold" href="/logout">
+                Resume
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div>
+              <a class="has-text-white has-text-weight-bold" href="/logout">
+                Contact
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container about-back has-background-grey-darker">
+      <h1
+        class="has-text-white has-text-centered has-text-weight-bold portfolio-head"
+      >
+        Projects
+      </h1>
+      <div class="columns">
+        <div class="column is-one-third">
+          <h2 class="has-text-white project-title has-text-weight-bold">
+            Employment Buddy
+          </h2>
+          <p class="has-text-white">
+            <a href="https://employmentbuddy.herokuapp.com/" target="_blank">
+              Deployment</a
+            >
+            &
+            <a
+              href="https://github.com/anusontarangkul/employment-buddy"
+              target="_blank"
+            >
+              GitHub Repository</a
+            >
+          </p>
+          <br />
+          <p class="has-text-white">
+            This app helps you stay organize on your job search.
+          </p>
+          <br />
+          <h3 class="has-text-white has-text-weight-bold tech-border">
+            Technologies
+          </h3>
+          <div class="columns">
+            <div class="column has-text-white">
+              <p>&#9679;&nbsp;HTML</p>
+              <p>&#9679;&nbsp;CSS</p>
+              <p>&#9679;&nbsp;Javascript</p>
+              <p>&#9679;&nbsp;Bulma</p>
+              <p>&#9679;&nbsp;jquery</p>
+              <p>&#9679;&nbsp;Undraw</p>
+            </div>
+            <div class="column has-text-white">
+              <p>&#9679;&nbsp;Cryptjs</p>
+              <p>&#9679;&nbsp;Dragula.js</p>
+              <p>&#9679;&nbsp;Express</p>
+              <p>&#9679;&nbsp;MYSQL</p>
+              <p>&#9679;&nbsp;Passport</p>
+              <p>&#9679;&nbsp;Sequelize</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-two-thirds">
+          <img src="update-job.gif" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

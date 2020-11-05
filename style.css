@@ -71,3 +71,16 @@
 a :hover {
   background-color: turquoise;
 }
+
+.portfolio-head {
+  font-size: 8vh;
+  margin-top: 1.5rem;
+}
+
+.project-title {
+  font-size: 3.5vh;
+}
+
+.tech-border {
+  border-bottom: 1px solid #fcfdfd;
+}
